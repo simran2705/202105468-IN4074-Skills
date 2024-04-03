@@ -1,0 +1,50 @@
+<!--Simranjeet Singh 202105468 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <ol>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="events.php">events</a> </li>
+        <li> <a href="registration.html">Registration</a> </li>
+        <li> <a href="about.html">about</a> </li>
+
+
+        </ol>
+            </header>
+    <main>
+    <h1> Our Registration form</h1>
+    <p> Welcome to the registration form for our upcoming event! Please provide your details below
+         to secure your spot and join us for an unforgettable experience filled with learning,
+          networking, and inspiration. Your participation is essential to making this event a success,
+           and we look forward to welcoming you. </p>
+        
+    <h3>Registration Form</h3>
+    <p> <b> After registration call at +1 234-456-7654 to know about the events provided on our events page </b></p>
+
+    <form action="submit.php" method="POST">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="number">Number:</label>
+        <input type="text" id="number" name="number" required><br><br>
+      
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required><br><br>
+      
+        <input type="submit" value="Register">
+      </form>
+    </main>
+</body>
+</html>
